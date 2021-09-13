@@ -9,18 +9,24 @@ public class PriorityQueue_ex1 {
 		// Creating a priority queue
 		PriorityQueue<Integer> numbers = new PriorityQueue<>();
 		// Using the add() method
-		numbers.add(4);
-		numbers.add(2);
-		numbers.add(5);
-		numbers.add(7);
-		numbers.add(3);
+		numbers.add(15);
+		numbers.add(30);
+		numbers.add(40);
+		numbers.add(50);
+		numbers.add(100);
 		numbers.add(10);
+		numbers.add(40);
+
+
+
 
 		System.out.println("PriorityQueue: " + numbers);
 		
 		// Using the offer() method
-		numbers.offer(1);
-		System.out.println("Updated PriorityQueue: " + numbers);
+		//numbers.offer(14);
+
+		
+		//System.out.println("Updated PriorityQueue: " + numbers);
 	}
 
 }
